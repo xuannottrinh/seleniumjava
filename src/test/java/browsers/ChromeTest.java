@@ -80,7 +80,7 @@ public class ChromeTest {
         Assert.assertEquals(driver.findElement(By.cssSelector("#lat-value")).getText(),"37.386052");
         Assert.assertEquals(driver.findElement(By.cssSelector("#long-value")).getText(),"-122.083851");
 
-        driver.quit(); //quit
+        driver.quit(); //quit browser
     }
 
 
